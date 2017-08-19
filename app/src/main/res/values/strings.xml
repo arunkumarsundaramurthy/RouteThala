@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Route Thala</string>
+    <string name="destination_prompt">Select your destination</string>
+    <string name="btn_ask_thala">Ask Thala</string>
+
+    <string-array name="destination_arrays">
+        <item>Adyar</item>
+        <item>Broadway</item>
+        <item>Tharamani</item>
+    </string-array>
+</resources>
