@@ -8,8 +8,10 @@
 
     <string-array name="destination_arrays">
         <item>Adyar</item>
-        <item>Broadway</item>
-        <item>Taramani</item>
         <item>Avadi</item>
+        <item>Broadway</item>
+        <item>Guindy</item>
+        <item>T.Nagar</item>
+        <item>Taramani</item>
     </string-array>
 </resources>

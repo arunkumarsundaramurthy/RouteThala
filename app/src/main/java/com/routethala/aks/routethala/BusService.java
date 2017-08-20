@@ -79,8 +79,13 @@ public class BusService {
         }});
 
         routes.put("571", new ArrayList<String>() {{
-            add("Broadway"); add("Central"); add("Taylors Road"); add("Taylors Road"); add("Ambathur O.T.");
+            add("Broadway"); add("Central"); add("Taylors Road"); add("Ambathur O.T.");
             add("Thirumullaivoyal"); add("Avadi"); add("Pattabiram"); add("Nemilicheri"); add("Ramapuram"); add("Thiruvallur");
+        }});
+
+        routes.put("576", new ArrayList<String>() {{
+            add("T.Nagar"); add("Saidapet"); add("Guindy"); add("Ramapuram"); add("Porur");
+            add("Poonamallee"); add("Irunkattukottai"); add("Sriperumpudur"); add("Mambakkam"); add("Sandavellur");
         }});
 
         routes.put("38c", new ArrayList<String>() {{ add("T.V.K.Nagar"); add("Choolai P.O"); add("V.House"); }});
