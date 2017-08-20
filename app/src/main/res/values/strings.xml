@@ -2,6 +2,9 @@
     <string name="app_name">Route Thala</string>
     <string name="destination_prompt">Select your destination</string>
     <string name="btn_ask_thala">Ask Thala</string>
+    <string name="dialog_select_prompt">Select Source</string>
+    <string name="dialog_select_gallery">Gallery</string>
+    <string name="dialog_select_camera">Camera</string>
 
     <string-array name="destination_arrays">
         <item>Adyar</item>
