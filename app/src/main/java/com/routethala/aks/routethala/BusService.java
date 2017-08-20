@@ -68,10 +68,22 @@ public class BusService {
 
     private void populateRoutes() {
         routes = new HashMap<>();
-        routes.put("5c", new ArrayList<String>(){{ add("Tharamani"); add("Adyar"); add("Broadway"); }});
-        routes.put("21h", new ArrayList<String>(){{ add("Broadway"); add("Chepauk"); add("Navalur"); }});
-        routes.put("571", new ArrayList<String>(){{ add("Adyar"); add("Chepauk"); add("Navalur"); }});
-        routes.put("38c", new ArrayList<String>(){{ add("Adyar"); add("Chepauk"); add("Navalur"); }});
+
+        routes.put("5c", new ArrayList<String>() {{
+            add("Broadway"); add("Central"); add("Adyar Gate"); add("Kotturpuram"); add("Adyar");
+            add("Taramani");
+        }});
+
+        routes.put("21h", new ArrayList<String>() {{
+            add("Broadway"); add("Chepauk"); add("Adyar"); add("Karapakkam"); add("Navalur"); add("Kelambakkam");
+        }});
+
+        routes.put("571", new ArrayList<String>() {{
+            add("Broadway"); add("Central"); add("Taylors Road"); add("Taylors Road"); add("Ambathur O.T.");
+            add("Thirumullaivoyal"); add("Avadi"); add("Pattabiram"); add("Nemilicheri"); add("Ramapuram"); add("Thiruvallur");
+        }});
+
+        routes.put("38c", new ArrayList<String>() {{ add("T.V.K.Nagar"); add("Choolai P.O"); add("V.House"); }});
     }
 
 }

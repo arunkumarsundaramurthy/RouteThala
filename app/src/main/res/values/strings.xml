@@ -9,6 +9,7 @@
     <string-array name="destination_arrays">
         <item>Adyar</item>
         <item>Broadway</item>
-        <item>Tharamani</item>
+        <item>Taramani</item>
+        <item>Avadi</item>
     </string-array>
 </resources>
